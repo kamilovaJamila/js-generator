@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+body{
+    font-family: "Vidaloka", serif;
+    background-color: black;
+}
+
+/* Container */
+
+.container{
+   background-color: rgb(6, 6, 95);
+   width: 750px;
+   height: 250px;
+   border: 1px solid rgb(255, 246, 246);
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 50px;
+}
+
+
+/* BTN */
+
+#click{
+    padding: 17px 17px 16px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: all .8s;
+}
+
+#click:hover{
+    background-color: black;
+    color: #fff;
+}
+
+/* Quote */
+
+#output{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 60px;
+}
